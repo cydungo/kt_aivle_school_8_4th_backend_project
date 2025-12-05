@@ -1,18 +1,16 @@
 package com.example.bookMS.model;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
-import java.util.Date;
+import java.time.LocalDateTime;
 
 @Entity
 @Getter
 @Setter
+@Builder
 @NoArgsConstructor
 @AllArgsConstructor
 public class Book {
@@ -24,8 +22,8 @@ public class Book {
     @Column
     private String content;
     @CreationTimestamp
-    private Date createdAt;
+    private LocalDateTime createdAt;
     @UpdateTimestamp
-    private Date updatedAt;
+    private LocalDateTime updatedAt;
     private String coverImageUrl;
 }
