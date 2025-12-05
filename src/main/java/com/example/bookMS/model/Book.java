@@ -1,4 +1,4 @@
-package com.example.bookMS.domain;
+package com.example.bookMS.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
