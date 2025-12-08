@@ -3,6 +3,12 @@
   Spring Boot 기반 백엔드 API 서버 프로젝트입니다.<br>
   프론트엔드(Vite + React)와 연동되며, REST API를 제공하는 역할을 수행합니다.
 
+## 👥 Team Structure
+
+  PM : 조유송 <br>
+  Backend : 나도요, 나성곤, 정성호<br>
+  Frontend : 이정민, 이동규, 조유송<br>
+
 ## Skills
 
   Versions
