@@ -27,7 +27,10 @@
      ├── main
      │    ├── java
      │    │    └── com.example.backend
+     │    │           ├── api.config   # Front-end Server 연결 설정 (CORS 설정)
+     │    │           ├── aspect       # AOP 로그 설정 
      │    │           ├── controller   # REST API 컨트롤러
+     │    │           ├── exception    # 전역 예외 설정
      │    │           ├── service      # 비즈니스 로직
      │    │           ├── repository   # DB 접근 레이어
      │    │           └── model        # 엔티티/DTO
@@ -59,4 +62,6 @@
     에러 없으면 → CORS 정상
 
     에러 발생시 F12 개발자 도구 console를 확인하여 오류 확인 
+
+    
 
