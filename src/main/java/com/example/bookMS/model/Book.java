@@ -17,13 +17,14 @@ public class Book {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long bookId;
-    @Column
+    @Column(length = 500)
     private String title;
-    @Column
+    @Column(columnDefinition = "TEXT")
     private String content;
     @CreationTimestamp
     private LocalDateTime createdAt;
     @UpdateTimestamp
     private LocalDateTime updatedAt;
+    @Column(length = 1000)
     private String coverImageUrl;
 }
